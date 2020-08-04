@@ -7,7 +7,7 @@ import java.util.Random;
 
 public class RandomIntegerGeneratorRepository implements DataRepository {
     private static final int MAX_NUMBER = 1000;
-    private Random randomGenerator = new Random();
+    private Random randomGenerator = new Random(); //TODO to change
 
     @Override
     public Optional getData() {
